@@ -13,7 +13,7 @@
 130 CIRCLE (x, y), r, c, , , 9.8
 140 IF vert GOTO 50
 150 RETURN
-200 SCREEN 9: COLOR 2: KEYOFF: vert = 0
+200 SCREEN 9: COLOR 2: KEY OFF: vert = 0
 210 x = 160: y = 100: c = 1: r = 50: GOSUB 40
 220 x = 30: y = 30: c = 2: r = 30: GOSUB 40
 230 x = 30: y = 169: GOSUB 40
